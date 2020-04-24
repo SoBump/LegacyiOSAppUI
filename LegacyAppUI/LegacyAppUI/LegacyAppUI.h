@@ -29,9 +29,6 @@ FOUNDATION_EXPORT const unsigned char LegacyAppUIVersionString[];
 // nicklockwood/SwipeView :tag => 1.3.2
 #import "SwipeView.h"
 
-// nicklockwood/CountryPicker :tag => 1.3
-#import "CountryPicker.h"
-
 // lxcid/LXReorderableCollectionViewFlowLayout :tag => 0.2.1
 #import "LXReorderableCollectionViewFlowLayout.h"
 
