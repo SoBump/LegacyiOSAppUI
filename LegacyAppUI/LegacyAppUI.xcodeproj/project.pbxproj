@@ -28,9 +28,6 @@
 		F3653E0F2438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DD32438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m */; };
 		F3653E102438061F00ED6257 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DD52438061F00ED6257 /* SwipeView.m */; };
 		F3653E112438061F00ED6257 /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DD62438061F00ED6257 /* SwipeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3653E122438061F00ED6257 /* CountryPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DD82438061F00ED6257 /* CountryPicker.m */; };
-		F3653E132438061F00ED6257 /* CountryPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DD92438061F00ED6257 /* CountryPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3653E142438061F00ED6257 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3653DDA2438061F00ED6257 /* CountryPicker.bundle */; };
 		F3653E152438061F00ED6257 /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DDC2438061F00ED6257 /* NMRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3653E162438061F00ED6257 /* slider-metal-trackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F3653DDE2438061F00ED6257 /* slider-metal-trackBackground.png */; };
 		F3653E172438061F00ED6257 /* slider-metal-handle-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3653DDF2438061F00ED6257 /* slider-metal-handle-highlighted@2x.png */; };
@@ -87,9 +84,6 @@
 		F3653DD32438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		F3653DD52438061F00ED6257 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
 		F3653DD62438061F00ED6257 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
-		F3653DD82438061F00ED6257 /* CountryPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryPicker.m; sourceTree = "<group>"; };
-		F3653DD92438061F00ED6257 /* CountryPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryPicker.h; sourceTree = "<group>"; };
-		F3653DDA2438061F00ED6257 /* CountryPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryPicker.bundle; sourceTree = "<group>"; };
 		F3653DDC2438061F00ED6257 /* NMRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMRangeSlider.h; sourceTree = "<group>"; };
 		F3653DDE2438061F00ED6257 /* slider-metal-trackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-metal-trackBackground.png"; sourceTree = "<group>"; };
 		F3653DDF2438061F00ED6257 /* slider-metal-handle-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-metal-handle-highlighted@2x.png"; sourceTree = "<group>"; };
@@ -154,7 +148,6 @@
 			children = (
 				F3653DCE2438061F00ED6257 /* BASSquareCropper */,
 				F3653DBF2438061F00ED6257 /* BLKFlexibleHeightBar */,
-				F3653DD72438061F00ED6257 /* CountryPicker */,
 				F3653DD12438061F00ED6257 /* LXReorderableCollectionViewFlowLayout */,
 				F3653DDB2438061F00ED6257 /* NMRangeSlider */,
 				F3653DD42438061F00ED6257 /* SwipeView */,
@@ -211,16 +204,6 @@
 				F3653DD62438061F00ED6257 /* SwipeView.h */,
 			);
 			path = SwipeView;
-			sourceTree = "<group>";
-		};
-		F3653DD72438061F00ED6257 /* CountryPicker */ = {
-			isa = PBXGroup;
-			children = (
-				F3653DD82438061F00ED6257 /* CountryPicker.m */,
-				F3653DD92438061F00ED6257 /* CountryPicker.h */,
-				F3653DDA2438061F00ED6257 /* CountryPicker.bundle */,
-			);
-			path = CountryPicker;
 			sourceTree = "<group>";
 		};
 		F3653DDB2438061F00ED6257 /* NMRangeSlider */ = {
@@ -311,7 +294,6 @@
 				F3653E062438061F00ED6257 /* SquareCashStyleBehaviorDefiner.h in Headers */,
 				F3653E322438061F00ED6257 /* YLProgressBar.h in Headers */,
 				F3653E022438061F00ED6257 /* UIView+BLKFlexibleHeightBarSubview.h in Headers */,
-				F3653E132438061F00ED6257 /* CountryPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +380,6 @@
 				F3653E2A2438061F00ED6257 /* slider-default7-handle@2x.png in Resources */,
 				F3653E262438061F00ED6257 /* slider-default-handle.png in Resources */,
 				F3653E172438061F00ED6257 /* slider-metal-handle-highlighted@2x.png in Resources */,
-				F3653E142438061F00ED6257 /* CountryPicker.bundle in Resources */,
 				F3653E222438061F00ED6257 /* slider-default-track@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +395,6 @@
 				F3653E302438061F00ED6257 /* NMRangeSlider.m in Sources */,
 				F3653E092438061F00ED6257 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */,
 				F3653E0B2438061F00ED6257 /* BLKFlexibleHeightBar.m in Sources */,
-				F3653E122438061F00ED6257 /* CountryPicker.m in Sources */,
 				F3653E0F2438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				F3653E002438061F00ED6257 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
 				F3653DFF2438061F00ED6257 /* SquareCashStyleBehaviorDefiner.m in Sources */,
@@ -560,7 +540,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobump.LegacyAppUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -584,7 +564,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobump.LegacyAppUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
