@@ -22,10 +22,6 @@
 		F3653E092438061F00ED6257 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DCB2438061F00ED6257 /* UIView+BLKFlexibleHeightBarSubview.m */; };
 		F3653E0A2438061F00ED6257 /* FacebookStyleBarBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DCC2438061F00ED6257 /* FacebookStyleBarBehaviorDefiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3653E0B2438061F00ED6257 /* BLKFlexibleHeightBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DCD2438061F00ED6257 /* BLKFlexibleHeightBar.m */; };
-		F3653E0C2438061F00ED6257 /* BASSquareCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DCF2438061F00ED6257 /* BASSquareCropperViewController.m */; };
-		F3653E0D2438061F00ED6257 /* BASSquareCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DD02438061F00ED6257 /* BASSquareCropperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3653E0E2438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DD22438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3653E0F2438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DD32438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m */; };
 		F3653E102438061F00ED6257 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3653DD52438061F00ED6257 /* SwipeView.m */; };
 		F3653E112438061F00ED6257 /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DD62438061F00ED6257 /* SwipeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3653E152438061F00ED6257 /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3653DDC2438061F00ED6257 /* NMRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -78,10 +74,6 @@
 		F3653DCB2438061F00ED6257 /* UIView+BLKFlexibleHeightBarSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BLKFlexibleHeightBarSubview.m"; sourceTree = "<group>"; };
 		F3653DCC2438061F00ED6257 /* FacebookStyleBarBehaviorDefiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookStyleBarBehaviorDefiner.h; sourceTree = "<group>"; };
 		F3653DCD2438061F00ED6257 /* BLKFlexibleHeightBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKFlexibleHeightBar.m; sourceTree = "<group>"; };
-		F3653DCF2438061F00ED6257 /* BASSquareCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASSquareCropperViewController.m; sourceTree = "<group>"; };
-		F3653DD02438061F00ED6257 /* BASSquareCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASSquareCropperViewController.h; sourceTree = "<group>"; };
-		F3653DD22438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		F3653DD32438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		F3653DD52438061F00ED6257 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
 		F3653DD62438061F00ED6257 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
 		F3653DDC2438061F00ED6257 /* NMRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMRangeSlider.h; sourceTree = "<group>"; };
@@ -146,9 +138,7 @@
 		F3653D3D243805B700ED6257 /* LegacyAppUI */ = {
 			isa = PBXGroup;
 			children = (
-				F3653DCE2438061F00ED6257 /* BASSquareCropper */,
 				F3653DBF2438061F00ED6257 /* BLKFlexibleHeightBar */,
-				F3653DD12438061F00ED6257 /* LXReorderableCollectionViewFlowLayout */,
 				F3653DDB2438061F00ED6257 /* NMRangeSlider */,
 				F3653DD42438061F00ED6257 /* SwipeView */,
 				F3653DFB2438061F00ED6257 /* YLProgressBar */,
@@ -177,24 +167,6 @@
 				F3653DCD2438061F00ED6257 /* BLKFlexibleHeightBar.m */,
 			);
 			path = BLKFlexibleHeightBar;
-			sourceTree = "<group>";
-		};
-		F3653DCE2438061F00ED6257 /* BASSquareCropper */ = {
-			isa = PBXGroup;
-			children = (
-				F3653DCF2438061F00ED6257 /* BASSquareCropperViewController.m */,
-				F3653DD02438061F00ED6257 /* BASSquareCropperViewController.h */,
-			);
-			path = BASSquareCropper;
-			sourceTree = "<group>";
-		};
-		F3653DD12438061F00ED6257 /* LXReorderableCollectionViewFlowLayout */ = {
-			isa = PBXGroup;
-			children = (
-				F3653DD22438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.h */,
-				F3653DD32438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m */,
-			);
-			path = LXReorderableCollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
 		F3653DD42438061F00ED6257 /* SwipeView */ = {
@@ -286,10 +258,8 @@
 				F3653E082438061F00ED6257 /* BLKDelegateSplitter.h in Headers */,
 				F3653E052438061F00ED6257 /* BLKFlexibleHeightBarBehaviorDefiner.h in Headers */,
 				F3653E0A2438061F00ED6257 /* FacebookStyleBarBehaviorDefiner.h in Headers */,
-				F3653E0E2438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.h in Headers */,
 				F3653E152438061F00ED6257 /* NMRangeSlider.h in Headers */,
 				F3653E072438061F00ED6257 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h in Headers */,
-				F3653E0D2438061F00ED6257 /* BASSquareCropperViewController.h in Headers */,
 				F3653E112438061F00ED6257 /* SwipeView.h in Headers */,
 				F3653E062438061F00ED6257 /* SquareCashStyleBehaviorDefiner.h in Headers */,
 				F3653E322438061F00ED6257 /* YLProgressBar.h in Headers */,
@@ -391,11 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3653E0C2438061F00ED6257 /* BASSquareCropperViewController.m in Sources */,
 				F3653E302438061F00ED6257 /* NMRangeSlider.m in Sources */,
 				F3653E092438061F00ED6257 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */,
 				F3653E0B2438061F00ED6257 /* BLKFlexibleHeightBar.m in Sources */,
-				F3653E0F2438061F00ED6257 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				F3653E002438061F00ED6257 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
 				F3653DFF2438061F00ED6257 /* SquareCashStyleBehaviorDefiner.m in Sources */,
 				F3653E312438061F00ED6257 /* YLProgressBar.m in Sources */,
@@ -540,7 +508,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobump.LegacyAppUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -564,7 +532,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobump.LegacyAppUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
