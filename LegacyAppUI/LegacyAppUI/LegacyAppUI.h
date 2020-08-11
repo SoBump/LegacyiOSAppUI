@@ -14,9 +14,6 @@ FOUNDATION_EXPORT double LegacyAppUIVersionNumber;
 //! Project version string for LegacyAppUI.
 FOUNDATION_EXPORT const unsigned char LegacyAppUIVersionString[];
 
-// Stakenborg/BASSquareCropper :tag => 0.0.3
-#import "BASSquareCropperViewController.h"
-
 // bryankeller/BLKFlexibleHeightBar :tag => 1.0.2
 #import "UIView+BLKFlexibleHeightBarSubview.h"
 #import "SquareCashStyleBehaviorDefiner.h"
@@ -28,9 +25,6 @@ FOUNDATION_EXPORT const unsigned char LegacyAppUIVersionString[];
 
 // nicklockwood/SwipeView :tag => 1.3.2
 #import "SwipeView.h"
-
-// lxcid/LXReorderableCollectionViewFlowLayout :tag => 0.2.1
-#import "LXReorderableCollectionViewFlowLayout.h"
 
 // yannickl/YLProgressBar :tag => 3.11.0
 #import "YLProgressBar.h"
