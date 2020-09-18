@@ -15,19 +15,19 @@ FOUNDATION_EXPORT double LegacyAppUIVersionNumber;
 FOUNDATION_EXPORT const unsigned char LegacyAppUIVersionString[];
 
 // bryankeller/BLKFlexibleHeightBar :tag => 1.0.2
-#import "UIView+BLKFlexibleHeightBarSubview.h"
-#import "SquareCashStyleBehaviorDefiner.h"
-#import "FacebookStyleBarBehaviorDefiner.h"
-#import "BLKFlexibleHeightBarSubviewLayoutAttributes.h"
-#import "BLKFlexibleHeightBarBehaviorDefiner.h"
-#import "BLKFlexibleHeightBar.h"
-#import "BLKDelegateSplitter.h"
+#import <LegacyAppUI/UIView+BLKFlexibleHeightBarSubview.h>
+#import <LegacyAppUI/SquareCashStyleBehaviorDefiner.h>
+#import <LegacyAppUI/FacebookStyleBarBehaviorDefiner.h>
+#import <LegacyAppUI/BLKFlexibleHeightBarSubviewLayoutAttributes.h>
+#import <LegacyAppUI/BLKFlexibleHeightBarBehaviorDefiner.h>
+#import <LegacyAppUI/BLKFlexibleHeightBar.h>
+#import <LegacyAppUI/BLKDelegateSplitter.h>
 
 // nicklockwood/SwipeView :tag => 1.3.2
-#import "SwipeView.h"
+#import <LegacyAppUI/SwipeView.h>
 
 // yannickl/YLProgressBar :tag => 3.11.0
-#import "YLProgressBar.h"
+#import <LegacyAppUI/YLProgressBar.h>
 
 // muZZkat/NMRangeSlider :commit => 56e8676
-#import "NMRangeSlider.h"
+#import <LegacyAppUI/NMRangeSlider.h>
